@@ -1,16 +1,30 @@
+.total-body {
+    background-color: #05445E;
+    padding-bottom: 50px;
+}
+
 .home-head {
     width: 100%;
     display: flex;
     margin-top: 0px;
-    background-color: #05445E;
+    /* background-color: #05445E; */
+    padding-bottom: 4%;
 }
 
 .head-text {
     width: 50%;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     font-size: 22px;
-    color: #FFFACD;
+    color: #FFFAF0;
+}
+
+.head-text h1 {
+    text-align: center;
+}
+
+.head-text p {
+    padding-top: 40px;
+    padding-left: 50px;
 }
 
 .head-img {
@@ -20,11 +34,23 @@
 
 .bmw-img {
     width: 90%;
-    border-radius: 20px;
+    border-radius: 50%;
+    height: 530px;
 }
 
 span {
     color: orangered;
     font-size: 55px;
     font-weight: 500;
+}
+
+.btn-review {
+    background-color: white;
+    width: 30% !important;
+    margin-left: 465px;
+    color: orangered;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 0;
 }
