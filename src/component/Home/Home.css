@@ -40,7 +40,13 @@
     height: 530px;
 }
 
-span {
+.head-text span {
+    color: orangered;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.title span {
     color: orangered;
     font-size: 55px;
     font-weight: 500;
