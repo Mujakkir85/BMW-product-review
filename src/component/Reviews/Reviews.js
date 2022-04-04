@@ -1,18 +1,11 @@
-import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
+import useReviews from '../../hooks/useReviews';
 import ShowReviews from '../ShowReviews/ShowReviews';
 import './Reviews.css'
 
 const Reviews = () => {
 
-    const [reviews, setReviews] = useState([])
-
-    useEffect(() => {
-        fetch('reviewdata.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
-
+    const [reviews, setReviews] = useReviews()
 
     return (
         <div >

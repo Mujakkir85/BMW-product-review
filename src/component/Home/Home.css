@@ -29,7 +29,9 @@
 
 .head-img {
     width: 50%;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 15px;
+    padding-left: 40px;
 }
 
 .bmw-img {

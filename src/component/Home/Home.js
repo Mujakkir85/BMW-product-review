@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
 import HomeReview from '../HomeReview/HomeReview';
 import BMW from './BMW.jpg';
 import './Home.css'
 
 const Home = () => {
-    const [reviews, setReviews] = useState([])
-
-    useEffect(() => {
-        fetch('reviewdata.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReviews();
 
     let newReviews = reviews.slice(3);
     // console.log(newReviews)
