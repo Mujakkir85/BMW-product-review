@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='nav-class'>
+        <div className='nav-class' sm={12} style={{ justifyContent: 'center' }}>
             <CustomLink to='/'>HOME</CustomLink>
             <CustomLink to='/reviews'>REVIEWS</CustomLink>
             <CustomLink to='/dashboard'>DASHBOARD</CustomLink>
