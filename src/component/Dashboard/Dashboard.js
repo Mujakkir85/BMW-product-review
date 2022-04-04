@@ -27,7 +27,7 @@ const Dashboard = () => {
             <br />
 
             <div>
-                <h2>Pie Chart</h2>
+                <h2>AreaChart</h2>
                 <AreaChart
                     width={500}
                     height={400}

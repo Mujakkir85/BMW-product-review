@@ -8,7 +8,7 @@ import './Home.css'
 const Home = () => {
     const [reviews, setReviews] = useReviews();
 
-    let newReviews = reviews.slice(3);
+    let newReviews = reviews.slice(0, 3);
     // console.log(newReviews)
     const nevigate = useNavigate()
 

@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# BMW CAR REVIEWS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- In This project I use react router, navber with customlink.
+- I create custom hook and use this hook in two different places.
+- I show three reviews in home page and all reviews showed in reviews page.
+- I create line chart and AreaChart.
+
 
 ## Available Scripts
 
